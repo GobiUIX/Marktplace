@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        
+@font-face {
+font-family:'Lato' ;
+src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+}
+
+
+
+
+.front-image_3{
+    display:block;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.buttons{
+    text-align: center;
+    border:none;
+}
+
+.maerkte_angebote:hover{
+    background-color:#fafafa;
+    cursor: pointer;
+    color: #5c0b0b;
+    box-shadow: inset -2px -2px 3px rgba(210, 129, 152, 0.6),
+                inset 2px 2px 3px rgb(0 0 0 / 60%);
+    opacity: 0.5;
+}
+.online_bestellen:hover{
+    background-color:#fafafa;
+    cursor: pointer;
+    color: #5c0b0b;
+    box-shadow: inset -2px -2px 3px rgba(210, 129, 152, 0.6),
+                inset 2px 2px 3px rgb(0 0 0 / 60%);
+    opacity: 0.5;
+}
+.rezepte_ernaehrung:hover{
+    background-color:#fafafa;
+    cursor: pointer;
+    color: #5c0b0b;
+    box-shadow: inset -2px -2px 3px rgba(210, 129, 152, 0.6),
+                inset 2px 2px 3px rgb(0 0 0 / 60%);
+    opacity: 0.5;
+}
+
+.info:hover{
+    background-color:#fafafa;
+    cursor: pointer;
+    color: #74809e;
+    box-shadow: inset -2px -2px 3px rgba(210, 129, 152, 0.6),
+                inset 2px 2px 3px rgb(0 0 0 / 60%);
+    opacity: 0.5;
+}
+
+.maerkte_angebote{
+    border: none;
+    max-width: 800px;
+    border-radius: 40px;
+    background-color: rgb(210, 129, 152);
+    margin-bottom: 40px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 520px;
+    padding-left: 50px;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 600;
+    color:#47525E ;
+    text-align: left;
+}
+
+
+
+
+
+
+.online_bestellen{
+    border: none;
+    max-width: 800px;
+    border-radius: 40px;
+    background-color: #D28198;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 400px;
+    padding-left: 50px;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 600;
+    color:#47525E ;
+    text-align: left;
+}
+
+.rezepte_ernaehrung{
+    border: none;
+    max-width: 800px;
+    border-radius: 40px;
+    background-color: #D28198;
+    
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 520px;
+    padding-left: 50px;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 600;
+    color:#47525E ;
+    text-align: left;
+}
+
+.info{
+    border: none;
+    max-width: 800px;
+    border-radius: 40px;
+    background-color: #DAE3F9;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 110px;
+    padding-left: 110px;
+    font-size:39px;
+    font-family: 'Lato';
+    font-weight: 600;
+    color:#47525E ;
+    text-align: center;
+}
+
+.rectangle_1{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px ;
+    height: 0.5px;
+    width: 800px;
+    background-color: #555;
+}
+
+.rectangle_2{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 0.6px;
+    width: 800px;
+    background-color: #555;
+}
+.rectangle_3{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 0.7px;
+    width: 800px;
+    background-color: #555;
+    
+}
+/* die unteren Buttons*/
+
+.container{
+    
+    max-width: 800px;
+    background-color:transparent;
+    
+    
+    
+    
+
+}
+.line1:hover{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #74809e;          
+    opacity: 0.5;
+}
+.line2:hover{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #74809e;          
+    opacity: 0.5;
+}
+.line3:hover{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #74809e;          
+    opacity: 0.5;
+}
+
+.line1{
+    width: 800px;
+    border: none;
+    background-color:transparent;
+    text-align: left;
+    margin-left:90px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #7b8289;
+    
+}
+.line2{
+    width: 800px;
+    border: none;
+    background-color:transparent;
+    text-align: left;
+    margin-left:90px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #7b8289;
+}
+.line3{
+    width: 800px;
+    border: none;
+    background-color:transparent;
+    text-align: left;
+    margin-left:90px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #7b8289;
+}
+ion-icon{
+font-size: 40px;
+vertical-align: middle;
+color: #7b8289;
+}

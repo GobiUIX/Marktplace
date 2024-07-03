@@ -1,0 +1,198 @@
+    
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        
+ @font-face {
+ font-family:'Lato' ;
+ src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+}
+    
+    
+    
+    
+    
+    
+    /*actions*/
+    .username-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 40%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+    }
+    .username-button:active{
+    
+        background-color:#11677F;
+        color:#ffffff;
+        border: none;
+    }
+    .email-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 60%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+        
+    }
+    .email-button:active{
+        background-color:rgb(17, 103, 127);
+        color:#ffffff;
+        border: none;
+    }
+    .password-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 60%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+    }
+    .password-button:active{
+        background-color:#11677F;
+        color:#ffffff;
+        border: none;
+    }
+    
+
+
+    ion-icon:hover{
+        opacity: 0.5;
+    }
+    ion-icon:active{
+        color:#ffffff;
+        border: none;
+    }
+    .create-button:hover{
+        background-color:#fafafa;
+        color: #11677F;
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 60%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+    }
+.create-button:active{
+    background-color:#fafafa;
+        color: #053543;
+}
+
+
+
+
+
+    .sign_up{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Lato';
+        color: #11677F;
+        margin-top: 80px;
+        margin-bottom: 30px;
+
+    }
+    .front-image_2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+    .username-button{
+        border:solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        border-color: #11677F;
+        color: #8190A5;
+        background-color: transparent;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family:'Lato';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:290px;
+        padding-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+
+    }
+    .email-button{
+        border:solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        border-color: #11677F;;
+        color: #8190A5;
+        background-color: transparent;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family:'Lato';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:340px;
+        padding-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .password-button{
+        border:solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        border-color: #11677F;
+        color: #8190A5;
+        background-color: transparent;
+        font-size: 25px;
+        font-family:'Lato';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:300px;
+        padding-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .create-button{
+        border:solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        color: white;
+        border-color:#11677F;
+        background-color:#11677F;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 18pt;
+        font-family:'Lato';
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 120px;
+        padding-left: 120px;
+        cursor: pointer;
+    }
+    ion-icon{
+        font-size: 30px;
+        vertical-align: middle;
+        color: #8190A5;
+        opacity: 0.7;
+        vertical-align: text-bottom; 
+    }
+    .buttons{
+        text-align: center;
+
+    }
+    .bottom-text{
+        font-family: 'Lato';
+        text-align: center;
+        color: #969FAA;
+    }
+
+    .link_therms{
+        margin-left: 10px;
+
+    }
+    .link_therms:hover{
+        cursor: pointer;
+        color: #11677F;
+        text-decoration:underline;
+        font-weight: 600;
+    }
+    .link_signin{
+        margin-left: 10px
+    }
+    .link_signin:hover{
+        cursor: pointer;
+        color: #11677F;
+        text-decoration:underline;
+        font-weight: 600;
+
+    }

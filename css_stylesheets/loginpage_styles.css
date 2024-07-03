@@ -1,0 +1,144 @@
+   
+    
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        
+@font-face {
+font-family:'Lato' ;
+src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+}
+
+
+
+
+
+
+    .icon{
+        display:block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px; /* Randabstand zwischen Icon und Topbild*/
+        margin-bottom: 20px;
+        
+    }
+    .front-image{
+        display:block;
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    ion-icon{
+        font-size: 30.5px;
+        vertical-align: middle;
+        color: #8190A5;
+        opacity: 0.7;
+        vertical-align: text-bottom; /* text-bottom stellt icon und text auf gleicher linie*/
+
+    }
+
+    .buttons{
+        text-align: center; 
+    }
+    /* ab hier fängt die interaktive ( styling) coding der buttons */
+    .email-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 40%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+    }
+    .password-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 40%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+                    opacity: 0.5;
+    }
+    .sign_in-button:hover{
+        box-shadow: inset -2px -2px 3px rgba(17, 103, 127, 40%),
+                    inset 2px 2px 3px rgb(0 0 0 / 60%);
+        opacity: 0.5;
+    }
+    .sign_in-button:active{
+        color: #053543;
+    }
+    .email-button{
+        border-radius: 35px;
+        max-width: 200%;
+        border-width: 1px;
+        border-color: #11677F;
+        border: solid;
+        color: #8190A5;
+        background-color: transparent;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family:'Lato';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:300px;
+        padding-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+        
+    }
+    .password-button{
+        border: solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        border-color: #11677F;;
+        color: #8190A5;
+        background-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        font-family:'Lato';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:260px;
+        padding-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+
+    }
+    .sign_in-button{
+        border:solid;
+        max-width: 200%;
+        border-radius: 35px;
+        border-width: 1px;
+        color:#f8f9f9;
+        border-color: #11677F;
+        background-color: #11677F;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 18pt;
+        font-family:'Lato';
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right:170px;
+        padding-left: 170px;
+        cursor: pointer;
+    }
+
+    .forgot_password{
+        text-align: center;
+    }
+    .forgot_password{ 
+        font-family:Arial, Helvetica, sans-serif;
+        color: #11677F;
+        font-size: 12pt;
+        font-weight:lighter;
+    }
+    .link_resetpassword:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .signup{
+        color:#8a0606;
+        font-weight:bold; 
+        font-size: large;
+    }
+    .signup:hover{
+        cursor: pointer;
+        color: #e16161;
+    }
+   
+    /*hier endet das styling part */
